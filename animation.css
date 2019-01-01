@@ -1,0 +1,257 @@
+/*body*/
+
+{  
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*logo image*/
+
+.logo-scr {
+    -webkit-animation-name: move;
+    animation-name: move;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-play-state:  running;
+    animation-play-state:  running;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.logo-scr:hover{
+    -webkit-animation-play-state:  paused;
+    animation-play-state:  paused;
+}
+
+@-webkit-keyframes move{
+    
+    0%{
+        opacity: 1;
+    }
+    
+    25% {
+        opacity: 0.7;
+    }
+    
+    50% {
+        opacity: 0.4;
+    }
+    
+    75% {
+        opacity: 0.7;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
+
+/*logo*/
+
+.logo {
+    -webkit-animation-name: swing;
+    animation-name: swing;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes swing {
+  15% {
+    -webkit-transform: translateX(9px);
+    transform: translateX(9px);
+  }
+  30% {
+    -webkit-transform: translateX(-9px);
+    transform: translateX(-9px);
+  }
+  40% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  50% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  65% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes swing {
+  15% {
+    -webkit-transform: translateX(9px);
+    transform: translateX(9px);
+  }
+  30% {
+    -webkit-transform: translateX(-9px);
+    transform: translateX(-9px);
+  }
+  40% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  50% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  65% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.logo:hover {
+  -webkit-animation: swing 0.6s ease;
+  animation: swing 0.6s ease;
+   -webkit-animation-iteration-count: 1;
+   animation-iteration-count: 1;
+}
+
+/*drop-down-menu*/
+
+.drop-down-menu {
+    -webkit-animation-name: swing2;
+    animation-name: swing2;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes swing2 {
+  15% {
+    -webkit-transform: translateX(9px);
+    transform: translateX(9px);
+  }
+  30% {
+    -webkit-transform: translateX(-9px);
+    transform: translateX(-9px);
+  }
+  40% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  50% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  65% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.drop-down-menu:hover {
+  -webkit-animation: swing 0.6s ease;
+  animation: swing 0.6s ease;
+   -webkit-animation-iteration-count: 1;
+   animation-iteration-count: 1;
+}
+
+/*about image*/
+
+.about-img:hover {
+  -webkit-transform: rotateZ(20deg);
+  transform: rotateZ(20deg);
+}
+
+/*works image*/
+
+.img-1:hover {
+  border-radius: 5%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.img-2:hover {
+  border-radius: 5%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.img-3:hover {
+  border-radius: 5%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.img-4:hover {
+  border-radius: 5%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.img-5:hover {
+  border-radius: 5%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.img-6:hover {
+  border-radius: 5%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.img-7:hover {
+  border-radius: 5%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.img-8:hover {
+  border-radius: 5%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+/*web development name*/
+
+.web-name:hover {
+  -webkit-transform: rotateZ(20deg);
+  transform: rotateZ(20deg);
+}
+
+/*news image*/
+
+.img-ante:hover {
+  border-radius: 5%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.img-ante-2:hover {
+  border-radius: 5%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.img-ante-3:hover {
+  border-radius: 5%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+/*clients*/
+
+.img-txt-client:hover {
+    -webkit-transform: rotateZ(20deg);
+    transform: rotateZ(20deg);
+}
